@@ -20,6 +20,11 @@ interface Props {
     width?: string;
     link?: string;
   }[]
+  /**
+ * @default false
+ * @description turn true if footer position isn't right
+ */
+  fixFooterPosition?: boolean;
 }
 
 function Footer({
@@ -35,9 +40,10 @@ function Footer({
   width = 59,
   widthDesktop = 140,
   socials,
+  fixFooterPosition,
 }: Props) {
   return (
-    <div class="bg-primary ">
+    <div class={`bg-primary w-full ${fixFooterPosition ? "absolute bottom-0 " : ''}`}>
       <div class="max-w-[970px] mx-auto flex justify-between py-[20px] px-[15px] min-h-[140px]">
         <a
           href={href}
@@ -67,13 +73,15 @@ function Footer({
           <div class="flex mb-2">
             {socials &&
               socials.map((social) => (
-                <Image
-                  src={social.icon || ""}
-                  alt={social.alt || ""}
-                  height={social.height || 30}
-                  width={social.width || 30}
-                  class="ml-[10px]"
-                />
+                <a href={social.link}>
+                  <Image
+                    src={social.icon || ""}
+                    alt={social.alt || ""}
+                    height={social.height || 30}
+                    width={social.width || 30}
+                    class="ml-[10px]"
+                  />
+                </a>
               ))
             }
           </div>

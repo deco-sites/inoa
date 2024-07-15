@@ -1,0 +1,49 @@
+{
+  "name": "A Inoa",
+  "path": "/a-inoa",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/9464a3de-9ec6-454b-ac22-fe619ba91754",
+      "logoDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/6669831f-9d73-4f48-8283-5840128e0d60",
+      "links": [
+        {
+          "url": "/a-inoa",
+          "text": "A INOA",
+          "activePage": true
+        },
+        {
+          "text": "PRODUTOS",
+          "url": "/"
+        },
+        {
+          "url": "/contato",
+          "text": "CONTATO",
+          "activePage": false
+        }
+      ],
+      "bgEffect": true
+    },
+    {
+      "__resolveType": "site/sections/ItWorks.tsx",
+      "name": "<p><strong><span style=\"font-size: 44pt;\" data-mce-style=\"font-size: 44pt;\">A Inoa&nbsp;</span></strong><span style=\"color: #005984; font-size: 12px;\" data-mce-style=\"color: #005984; font-size: 12px;\">// Mais eficiência para o mercado financeiro brasileiro</span></p><p><span style=\"color: #005984; font-size: 12px;\" data-mce-style=\"color: #005984; font-size: 12px;\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: #005984; font-size: 12px;\" data-mce-style=\"color: #005984; font-size: 12px;\"><br data-mce-bogus=\"1\"></span></p><h2 class=\"text-primary\"><strong><span style=\"font-size: 24pt; color: rgb(0, 89, 132);\" data-mce-style=\"font-size: 24pt; color: rgb(0, 89, 132);\">Origem</span></strong></h2><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">A Inoa iniciou suas atividades em 2008, sendo fundada por três desenvolvedores que já possuiam experiência prévia no desenvolvimento de sistemas para o mercado financeiro. Inicialmente seu foco foi voltado para o desenvolvimento de uma plataforma de Market Data de baixa latência.</span></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Nos anos seguintes (2009-2012) a Inoa diversificou sua área atuação, provendo serviços de desenvolvimento sob demanda, consultoria e treinamentos em diversos clientes, não se restringindo apenas ao mercado financeiro.</span></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">De 2013 em diante, resolvemos focar nossos esforços no desenvolvimento de novos produtos. Desse trabalho surgiram as soluções AlphaTools, voltada para clientes do buy side, e BrokerTools, voltada para os back e middle offices de corretoras. Em paralelo, a solução MarketTools, contendo os produtos ligados à infra-estrutura de trade, existentes desde o início da empresa, continuou sendo aprimorada.</span></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Fora do mercado financeiro, foi desenvolvida a solução SkyTools, um sistema de gestão de taxis aereos, oficinas de manutenção e frotas de aeronaves privadas.</span></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Não obstante, a área de serviços de desenvolvimento sob demanda, consultoria e treinamentos da empresa continua existindo, mas estando mais focada em atividades ligadas a esses produtos.</span></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><br data-mce-bogus=\"1\"></span></p><h2 class=\"text-primary\"><strong><span style=\"font-size: 24pt; color: rgb(0, 89, 132);\" data-mce-style=\"font-size: 24pt; color: rgb(0, 89, 132);\">Valores</span></strong></h2><ul><li><span style=\"color: rgb(102, 102, 102); font-size: 10pt;\" data-mce-style=\"color: rgb(102, 102, 102); font-size: 10pt;\">Tools - Para cada tarefa a ferramenta certa: em contraste com a situação que observamos no mercado, de sistemas superdimencionados e engessados, todos os sistemas da Inoa são desenvolvidos de forma modular, permitindo que cada cliente componha uma solução personalizada, utilizando só os módulos que fazem sentido para a sua realidade.</span></li><li><span style=\"color: rgb(102, 102, 102); font-size: 10pt;\" data-mce-style=\"color: rgb(102, 102, 102); font-size: 10pt;\">Liberdade e extensibilidade: uso de protocolos abertos e comunicações padronizadas, facilitando integrações e evitando criar amarras tecnológicas, que prendam o cliente a uma solução de um&nbsp;<em>vendor</em>&nbsp;específico.</span></li><li><span style=\"color: rgb(102, 102, 102); font-size: 10pt;\" data-mce-style=\"color: rgb(102, 102, 102); font-size: 10pt;\">Preços justos: por prover uma solução modular, cada cliente só paga pelo o que efetivamente deseja usar, não ficando preso a um pacote fechado de funcionalidades desnecessárias. Além disso, na nossa organização interna buscamos adotar esse mesmo princípio de máxima efeciência, seguindo uma filosofia&nbsp;<em>lean</em>. 100% dos membros da Inoa trabalham na sua atividade fim, isto é, no desenvolvimento de software. Isso também se reflete no preço de nossos produtos, que não inclui custos escondidos.</span></li><li><span style=\"color: rgb(102, 102, 102); font-size: 10pt;\" data-mce-style=\"color: rgb(102, 102, 102); font-size: 10pt;\">Colaboração: nós buscamos sempre manter um canal aberto de comunicação com clientes,&nbsp;<em>vendors</em>&nbsp;e outros&nbsp;<em>players</em> do mercado, sempre focados em buscar oportunidades de integração mais eficazes e eficientes.</span></li></ul>",
+      "backgroundDotsEffect": true
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/0f72b3b8-86e1-4772-b8a3-7ad57fbb99cd",
+      "socials": [
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/0530f48f-2c68-4e4e-a713-5b1e11214969"
+        },
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/8670ede0-b094-4ded-a8b7-a95031ea9480"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

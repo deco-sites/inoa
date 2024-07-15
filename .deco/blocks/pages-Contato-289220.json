@@ -1,0 +1,49 @@
+{
+  "name": "Contato",
+  "path": "/contato",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/9464a3de-9ec6-454b-ac22-fe619ba91754",
+      "logoDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/6669831f-9d73-4f48-8283-5840128e0d60",
+      "links": [
+        {
+          "url": "/a-inoa",
+          "text": "A INOA"
+        },
+        {
+          "text": "PRODUTOS",
+          "url": "/"
+        },
+        {
+          "url": "/contato",
+          "text": "CONTATO",
+          "activePage": true
+        }
+      ],
+      "bgEffect": true
+    },
+    {
+      "__resolveType": "site/sections/ItWorks.tsx",
+      "name": "<p><strong><span style=\"font-size: 44pt\">Contato</span></strong></p><p></p><p><span style=\"color: rgb(0, 89, 132); font-size: 12pt\">Inoa Sistemas</span></p><p style=\"max-height:30px;\"><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">email:</span><span style=\"color: rgb(0, 89, 132); font-size: 12pt\"> </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:contato@inoa.com.br\"><strong><span style=\"color: rgb(0, 89, 132); font-size: 12pt\">contato@inoa.com.br</span></strong></a></p><p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">telefone:</span><span style=\"color: rgb(0, 0, 0); font-size: 15pt\"> </span><span style=\"color: rgb(102, 102, 102); font-size: 15pt\">+55 21 2391-9336</span></p>",
+      "backgroundDotsEffect": true
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/0f72b3b8-86e1-4772-b8a3-7ad57fbb99cd",
+      "socials": [
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/0530f48f-2c68-4e4e-a713-5b1e11214969"
+        },
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/8670ede0-b094-4ded-a8b7-a95031ea9480"
+        }
+      ],
+      "fixFooterPosition": true
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

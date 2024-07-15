@@ -44,5 +44,17 @@
   "/.deco/blocks/deco-htmx.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/deco/htmx.ts"
+  },
+  "/.deco/blocks/pages-Contato-289220.json": {
+    "name": "Contato",
+    "path": "/contato",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-A%2520Inoa-592176.json": {
+    "name": "A Inoa",
+    "path": "/a-inoa",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

@@ -1,61 +1,48 @@
-import { usePartialSection } from "deco/hooks/usePartialSection.ts";
+import { HTMLWidget, ImageWidget } from "apps/admin/widgets.ts";
+import Image from "apps/website/components/Image.tsx";
+
 
 export interface Props {
-  /**
-   * @format rich-text
-   * @description The description of name.
-   * @default It Works!
-   */
-  name?: string;
+  name?: HTMLWidget;
 
-  count?: number;
+  socials?: {
+    icon?: ImageWidget;
+    alt?: string;
+    height?: string;
+    width?: string;
+    link?: string;
+  }[]
+  backgroundDotsEffect?: boolean;
 }
 
-export default function Section({ name = "It Works!", count = 0 }: Props) {
-  /**
-   * usePartialSection is a nice hook for getting the HTMX link to render this section,
-   * but with the following Props
-   */
-  const downLink = usePartialSection({ props: { count: count - 1 } });
-  const upLink = usePartialSection({ props: { count: count + 1 } });
+export default function Section({ name = "It Works!", socials, backgroundDotsEffect }: Props) {
 
   return (
     <div
       id="it-works"
-      class="container py-10 flex flex-col h-screen w-full items-center justify-center gap-16"
+      class={`py-20 flex flex-col w-full items-start justify-center gap-16 px-[15px] ${backgroundDotsEffect ? 'bg-top-bottom-dots' : ''}`}
     >
-      <div class="leading-10 text-6xl" dangerouslySetInnerHTML={{
-        __html: name,
-      }}/>
-
-      <div class="flex flex-col items-center justify-center gap-2">
-        <div class="flex items-center gap-4">
-          <button
-            hx-target="#it-works"
-            hx-swap="outerHTML"
-            hx-get={downLink["f-partial"]} // htmx link for this section with the down vote props
-            class="btn btn-sm btn-circle btn-outline no-animation"
-          >
-            <span class="inline [.htmx-request_&]:hidden">
-              -
-            </span>
-            <span class="loading loading-spinner hidden [.htmx-request_&]:inline" />
-          </button>
-          <span>{count}</span>
-          <button
-            hx-target="#it-works"
-            hx-swap="outerHTML"
-            hx-get={upLink["f-partial"]} // htmx link for this section with the up vote props
-            class="btn btn-sm btn-circle btn-outline no-animation"
-          >
-            <span class="inline [.htmx-request_&]:hidden">
-              +
-            </span>
-            <span class="loading loading-spinner hidden [.htmx-request_&]:inline" />
-          </button>
+      <div class="md:max-w-[970px] md:mx-auto w-full">
+        <div class="" dangerouslySetInnerHTML={{
+          __html: name,
+        }} />
+        <div class="flex px-[15px]">
+          {socials &&
+            socials.map((social) => (
+              <a href={social.link}>
+                <Image
+                  src={social.icon || ""}
+                  alt={social.alt || ""}
+                  height={social.height || 30}
+                  width={social.width || 30}
+                  class="ml-[10px]"
+                />
+              </a>
+            ))
+          }
         </div>
-        <div class="text-sm">Powered by HTMX</div>
       </div>
     </div>
   );
 }
+

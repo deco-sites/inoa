@@ -3,27 +3,25 @@
 @tailwind utilities;
 
 @layer base {
-
   /* Allow changing font family via CMS */
   html {
     font-family: var(--font-family);
   }
 
   /** Remove default styles from input[type=number] */
-  input[type=number]::-webkit-inner-spin-button,
-  input[type=number]::-webkit-outer-spin-button {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
   }
 
-  input[type=number] {
+  input[type="number"] {
     -moz-appearance: textfield;
     appearance: textfield;
   }
 }
 
 @layer components {
-
   /** Prevent scroll when modal is open */
   .no-scroll {
     overflow: hidden;
@@ -32,7 +30,6 @@
 }
 
 @layer utilities {
-
   /** Remove scrollbar from overflow-auto */
   .scrollbar-none {
     scrollbar-width: none;
@@ -41,5 +38,54 @@
 
   .scrollbar-none::-webkit-scrollbar {
     display: none;
+  }
+
+  .bg-top-dots {
+    background: url(/image/bg-top-dots.png) repeat-x scroll top center;
+  }
+
+  .bg-effect {
+    background: url(/image/bg-top-gradiente.jpg) no-repeat top center #033648;
+    background-size: auto 100%;
+  }
+
+  .bg-top-bottom-dots {
+    background: url(/image/bg-top-bottom-dots.png) repeat-x top center;
+  }
+
+  .sliderLinkEffect {
+    text-align: right;
+    background: url(/image/bg-home-more-link.png) repeat-x scroll left center;
+    padding-bottom: 10px;
+  }
+
+  @keyframes slideDown {
+    from {
+      max-height: 0;
+      opacity: 0;
+    }
+    to {
+      max-height: 500px;
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      max-height: 500px;
+      opacity: 1;
+    }
+    to {
+      max-height: 0;
+      opacity: 0;
+    }
+  }
+
+  .slide-down {
+    animation: slideDown 1s ease-out forwards;
+  }
+
+  .slide-up {
+    animation: slideUp 1s ease-out forwards;
   }
 }

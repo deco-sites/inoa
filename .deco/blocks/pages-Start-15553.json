@@ -3,8 +3,130 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<p>It Works! efwef</p>"
+      "__resolveType": "site/sections/Header.tsx",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/6d22d734-a6e1-4018-b17a-4ea4a0672fee",
+      "logoDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/5d584815-e113-43df-a2da-dab235390aae",
+      "links": [
+        {
+          "url": "/a-inoa",
+          "text": "A INOA"
+        },
+        {
+          "text": "PRODUTOS",
+          "url": "/"
+        },
+        {
+          "url": "/contato",
+          "text": "CONTATO"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/BannerSlider.tsx",
+      "imagesDesktop": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/11364c20-cb22-407e-846c-c9a03c0cf59d",
+          "linkUrl": "/",
+          "linkText": "Conheça nossa solução para gestoras de fundos de investimento, focada na máxima automação de processos, integrações e redução de riscos operacionais.",
+          "linkButtonText": "Saiba Mais »",
+          "linkTitle": "<strong>AlphaTools</strong>"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/5c7a88e8-eca2-496d-bd9e-b2b2fd74a073",
+          "linkUrl": "/",
+          "linkTitle": "<strong>BrokerTools</strong>",
+          "linkText": "Conheça nossa solução para automação de processos de back & middle offices de corretoras.",
+          "linkButtonText": "Saiba Mais »"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/8331e4f2-a064-4dd7-ba70-8215cc5b2950",
+          "linkUrl": "/",
+          "linkTitle": "<strong>MarketTools</strong>",
+          "linkText": "Conheça nossos módulos ligados à infra-estrutura de trading, como o Inoa Market Data Feeder, o calibrador de riscos pré-trade RiskManager e o roteador de ordens ExecHub.",
+          "linkButtonText": "Saiba Mais »"
+        },
+        {
+          "linkUrl": "/",
+          "linkTitle": "Nós somos <strong>especialistas em sistemas críticos em desempenho para o mercado de capitais</strong> e profissionais apaixonados por criar soluções e produtos inovadores.",
+          "linkText": "Desde 2008 a INOA traz novas tecnologias e padrões abertos para o mercado financeiro brasileiro. Nosso foco é prover soluções com desempenho e qualidade, atuando de forma transparente junto ao cliente para a melhoria contínua de nossos produtos."
+        }
+      ],
+      "imagesMobile": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/3be0c228-3fe3-49f6-896d-bf64e2a396f7",
+          "linkUrl": "/",
+          "linkTitle": "<strong>AlphaTools</strong>",
+          "linkText": "Conheça nossa solução para gestoras de fundos de investimento, focada na máxima automação de processos, integrações e redução de riscos operacionais.",
+          "linkButtonText": "Saiba Mais »"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/e665445e-ce4a-4a35-a02b-46028455b1b0",
+          "linkUrl": "/",
+          "linkTitle": "<strong>BrokerTools</strong>",
+          "linkText": "Conheça nossa solução para automação de processos de back & middle offices de corretoras.",
+          "linkButtonText": "Saiba Mais »"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/0a7d5db1-fd57-45b8-a411-318c8c1d14f5",
+          "linkUrl": "/",
+          "linkTitle": "<strong>MarketTools</strong>",
+          "linkText": "Conheça nossos módulos ligados à infra-estrutura de trading, como o Inoa Market Data Feeder, o calibrador de riscos pré-trade RiskManager e o roteador de ordens ExecHub.",
+          "linkButtonText": "Saiba Mais »"
+        },
+        {
+          "linkUrl": "/",
+          "linkTitle": "Nós somos <strong>especialistas em sistemas críticos em desempenho para o mercado de capitais</strong> e profissionais apaixonados por criar soluções e produtos inovadores.",
+          "linkText": "Desde 2008 a INOA traz novas tecnologias e padrões abertos para o mercado financeiro brasileiro. <br/> <br/> Nosso foco é prover soluções com desempenho e qualidade, atuando de forma transparente junto ao cliente para a melhoria contínua de nossos produtos."
+        }
+      ],
+      "sliderConfigs": {
+        "autoplay": false
+      },
+      "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/51a7541c-45ce-4de2-8df9-c750d285bad1"
+    },
+    {
+      "__resolveType": "site/sections/TextImageCustom.tsx",
+      "title": "<p><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><strong><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\">Produtos </span></strong></span><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">// Conheça nossos produtos inovadores para o mercado de capitais</span></span></span></p>",
+      "contentMobile": [
+        {
+          "title": "AlphaTools",
+          "text": " A solução AlphaTools compõe o conjunto de sistemas da Inoa voltados para atender às principais necessidades de uma  \t\t\t\t\t\t\t\tgestora de investimentos, do front ao back. Focada em aumentar a eficência e reduzir riscos operacionais, \t\t\t\t\t\t\t\tessa solução visa automatizar processos e integrações e prover ferramentas de acompanhamento e análise para apoio à tomada de decisão."
+        },
+        {
+          "title": "BrokerTools",
+          "text": "Voltada para o sell side, a solução BrokerTools compreende um conjunto de módulos para automação dos processos de \t\t\t\t\t\t\t\tback e middle offices de corretoras de valores. Dentre os principais fluxos atendidos por essa solução, destacam-se: \t\t\t\t\t\t\t\trecebimento de execuções, especificação de execuções sem comitente, repasse, distribuição de execuções entre clientes finais, \t\t\t\t\t\t\t\tcomunicação com clientes para envio de confirmações e recebimento de alocações. \t\t\t\t\t\t\t\tComplementarmente, o módulo LendingHub atende todos os processos operacionais de aluguel de ações, oferecendo ainda ferramentas \t\t\t\t\t\t\t\tpara aumento da liquidez e transparência desse mercado, facilitando a consulta e casamento de ofertas de negociação. \t\t\t\t\t\t\t",
+          "invertText": true
+        },
+        {
+          "text": "MarketTools representa a suíte de módulos ligados à infra-estrutura de trading. Fazem parte dessa suíte o Market Data Feeder,  \t\t\t\t\t\t\t\tum feeder de cotações de baixíssima latência; o RiskManager, calibrador de riscos pré-trade; os módulos ExecHub e ExecAdapter,  \t\t\t\t\t\t\t\tpara envio e roteamento de ordens, dentre outros. \t\t\t\t\t\t\t",
+          "title": "MarketTools"
+        }
+      ],
+      "titleMobile": "<p><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><strong><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\">Produtos </span></strong></span></p><p><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">// Conheça nossos produtos inovadores para o mercado de capitais</span></span></span></p>",
+      "checkMore": "Veja todos os nossos produtos »",
+      "checkMoreUrl": "/",
+      "contentDesktop": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/e81fd0b6-0e6e-4b7f-bec7-61bf77de2f69",
+          "title": "AlphaTools",
+          "text": " A solução AlphaTools compõe o conjunto de sistemas da Inoa voltados para atender às principais necessidades de uma gestora de investimentos, do front ao back. Focada em aumentar a eficência e reduzir riscos operacionais, \t\t\t\t\t\t\t\tessa solução visa automatizar processos e integrações e prover ferramentas de acompanhamento e análise para apoio à tomada de decisão.",
+          "imageSeparator": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/4df5b6b7-5e8b-4356-8e30-bf4b35d41283",
+          "imageSeparatorVisible": true
+        },
+        {
+          "title": "BrokerTools",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/63b9b9f2-d3ef-434a-95c3-405092b38e89",
+          "text": " Voltada para o sell side, a solução BrokerTools compreende um conjunto de módulos para automação dos processos de back e middle offices de corretoras de valores. Dentre os principais fluxos atendidos por essa solução, destacam-se: \t\t\t\t\t\t\t\trecebimento de execuções, especificação de execuções sem comitente, repasse, distribuição de execuções entre clientes finais, \t\t\t\t\t\t\t\tcomunicação com clientes para envio de confirmações e recebimento de alocações. \t\t\t\t\t\t\t\tComplementarmente, o módulo LendingHub atende todos os processos operacionais de aluguel de ações, oferecendo ainda ferramentas \t\t\t\t\t\t\t\tpara aumento da liquidez e transparência desse mercado, facilitando a consulta e casamento de ofertas de negociação. ",
+          "invertImage": true,
+          "imageSeparator": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/4d4f345f-611d-4773-8aca-83ad8648e90d",
+          "imageSeparatorVisible": true
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/de2ceb84-146b-4fe6-89fb-2266243a1ccc",
+          "title": "MarketTools",
+          "text": " MarketTools representa a suíte de módulos ligados à infra-estrutura de trading. Fazem parte dessa suíte o Market Data Feeder,  \t\t\t\t\t\t\t\tum feeder de cotações de baixíssima latência; o RiskManager, calibrador de riscos pré-trade; os módulos ExecHub e ExecAdapter, para envio e roteamento de ordens, dentre outros. "
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
