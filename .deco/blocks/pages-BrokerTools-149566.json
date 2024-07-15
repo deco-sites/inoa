@@ -1,0 +1,151 @@
+{
+  "name": "BrokerTools",
+  "path": "/solucao-brokertools",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/9464a3de-9ec6-454b-ac22-fe619ba91754",
+      "logoDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/6669831f-9d73-4f48-8283-5840128e0d60",
+      "links": [
+        {
+          "url": "/a-inoa",
+          "text": "A INOA"
+        },
+        {
+          "text": "PRODUTOS",
+          "url": "/produtos",
+          "activePage": true
+        },
+        {
+          "url": "/contato",
+          "text": "CONTATO",
+          "activePage": false
+        }
+      ],
+      "bgEffect": true
+    },
+    {
+      "__resolveType": "site/sections/TabsCustom.tsx",
+      "title": "<p><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><strong><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Produtos</span> </span></strong></span><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\"><span style=\"font-size: 14pt; font-weight: 300;\" data-mce-style=\"font-size: 14pt; font-weight: 300;\">// Grandes soluções e módulos sob medida para atender cada demanda da forma certa</span></span></span></p>",
+      "titleMobile": "<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><strong><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\">Produtos </span></strong></span></p><p><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\"><span style=\"font-size: 14pt; font-weight: 300;\" data-mce-style=\"font-size: 14pt; font-weight: 300;\">// Grandes soluções e módulos sob medida para atender cada demanda da forma certa</span></span></span></p>",
+      "backgroundDotsEffect": true,
+      "tabs": [
+        {
+          "tabsContent": [
+            {
+              "link": "solucao-alphatools",
+              "text": "AlphaTools"
+            },
+            {
+              "text": "Cotação",
+              "link": "https://www.inoa.com.br/resources/inoa-marketdata-datasheet-v2.pdf"
+            },
+            {
+              "text": "Engine FIX®/FAST®"
+            },
+            {
+              "text": "Ordens",
+              "link": "https://www.inoa.com.br/resources/inoa-execution-folder.pdf"
+            },
+            {
+              "text": "Pós Trade",
+              "link": "/solucao-brokertools."
+            },
+            {
+              "text": "Engine de Risco",
+              "link": "https://www.inoa.com.br/resources/inoa-execution-folder.pdf"
+            }
+          ],
+          "title": "BUYSIDE"
+        },
+        {
+          "tabsContent": [
+            {
+              "text": "BrokerTools",
+              "link": "/solucao-brokertools"
+            },
+            {
+              "link": "/solucao-brokertools",
+              "text": "Aluguel de Ações"
+            },
+            {
+              "text": "Cotação",
+              "link": "https://www.inoa.com.br/resources/inoa-marketdata-datasheet-v2.pdf"
+            },
+            {
+              "text": "Engine FIX®/FAST®"
+            },
+            {
+              "text": "Gerência de Risco",
+              "link": "/solucao-brokertools"
+            },
+            {
+              "text": "Ordens",
+              "link": "https://www.inoa.com.br/resources/inoa-execution-folder.pdf"
+            },
+            {
+              "text": "Pós Trade",
+              "link": "/solucao-brokertools"
+            },
+            {
+              "text": "Engine de Risco",
+              "link": "https://www.inoa.com.br/resources/inoa-execution-folder.pdf"
+            }
+          ],
+          "title": "SELLSIDE"
+        },
+        {
+          "tabsContent": [
+            {
+              "text": "Cotação",
+              "link": "https://www.inoa.com.br/resources/inoa-marketdata-datasheet-v2.pdf"
+            },
+            {
+              "text": "Engine FIX®/FAST®"
+            },
+            {
+              "text": "Ordens",
+              "link": "https://www.inoa.com.br/resources/inoa-execution-folder.pdf"
+            },
+            {
+              "text": "Pós Trade",
+              "link": "/solucao-brokertools"
+            },
+            {
+              "text": "Engine de Risco",
+              "link": "https://www.inoa.com.br/resources/inoa-execution-folder.pdf"
+            }
+          ],
+          "title": "VENDORS"
+        }
+      ],
+      "content": [
+        {
+          "topImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/ddc6c868-bdcf-487f-a722-57edb64d30e1",
+          "title": "BrokerTools",
+          "textContent": "<p><span style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\">Enquanto tivemos significativos avanços nos sistemas de trading das bolsas e das corretoras, muito pouco evoluiu nos sistemas de&nbsp;<strong>Back-Office</strong>&nbsp;e de áreas como a&nbsp;<strong>Mesa de Aluguel</strong>&nbsp;e de&nbsp;<strong>Gerência de Limites de Risco Pré-trade</strong>&nbsp;de clientes institucionais.</span></p><p><br data-mce-bogus=\"1\"></p><ul><li style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\"><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Se por um lado o mercado brasileiro está relativamente maduro em algoritmos de negociação e HFT, por outro a maioria das corretoras e gestoras ainda faz as&nbsp;<strong>confirmações diárias</strong>&nbsp;via e-mail manualmente ou usando uma colcha de retalhos feita de macros de Excel e programas pouco preparados para a infinidade de&nbsp;<strong>templates de arquivos e mensagens</strong>&nbsp;usados pelo mercado.</span></li><li style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\"><br data-mce-bogus=\"1\"></li><li style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Os poucos sistemas que dominam o mercado não foram pensados para&nbsp;<strong>inter-operar</strong>&nbsp;via&nbsp;<strong>protocolos abertos</strong>&nbsp;como o FIX e usam mecanismos de&nbsp;<strong>integração</strong>&nbsp;atrasados, limitando-se a trocar e-mails e a permitir consultas em seus bancos de dados, consumindo esforço humano até para as tarefas mais corriqueiras.</span></li><li style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><br data-mce-bogus=\"1\"></li></ul><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\">Frente a essa realidade, desenvolvemos o BrokerTools, uma solução completa para as corretoras, focando na&nbsp;<strong>modularidade</strong>,&nbsp;<strong>extensibilidade</strong>&nbsp;e&nbsp;<strong>padronização de nomenclaturas e processos</strong>&nbsp;baseando-nos na&nbsp;<strong><a style=\"color: rgb(102, 102, 102);\" href=\"http://www.fixtradingcommunity.org/pg/structure/tech-specs/fix-guidelines/semantic-guidelines\" data-mce-style=\"color: rgb(102, 102, 102);\" data-mce-href=\"http://www.fixtradingcommunity.org/pg/structure/tech-specs/fix-guidelines/semantic-guidelines\">semântica FIX</a></strong>.</span></p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p><h3><span style=\"color: rgb(102, 102, 102); font-size: 18pt;\" data-mce-style=\"color: rgb(102, 102, 102); font-size: 18pt;\">Módulos Internos</span></h3><p><span style=\"color: rgb(102, 102, 102);\" data-mce-style=\"color: rgb(102, 102, 102);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(102, 102, 102); font-size: 10pt; font-weight: 300;\" data-mce-style=\"color: rgb(102, 102, 102); font-size: 10pt; font-weight: 300;\">O BrokerTools é composto por módulos independentes de propósito específico, de forma a permitir maior especialização de tecnologias e das equipes responsáveis por cada sub-sistema. Cada um incorpora à solução uma gama de funcionalidades. Algumas interfaceiam com os usuários, outras processam as regras de negócio de cada área do business, outras cuidam da infra-estrutura e outras são responsáveis pelas integrações com sistemas externos.</span></p><p><span style=\"color: rgb(102, 102, 102); font-size: 10pt; font-weight: 300;\" data-mce-style=\"color: rgb(102, 102, 102); font-size: 10pt; font-weight: 300;\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"color: rgb(102, 102, 102); font-size: 10pt; font-weight: 300;\" data-mce-style=\"color: rgb(102, 102, 102); font-size: 10pt; font-weight: 300;\"><img src=\"https://www.inoa.com.br/images/produtos/broker.png\" data-mce-src=\"https://www.inoa.com.br/images/produtos/broker.png\"></span></p><p><span style=\"color: rgb(102, 102, 102); font-size: 10pt; font-weight: 300;\" data-mce-style=\"color: rgb(102, 102, 102); font-size: 10pt; font-weight: 300;\"><br data-mce-bogus=\"1\"></span></p><p><a data-mce-href=\"https://www.inoa.com.br/resources/brokertools.pdf\" href=\"https://www.inoa.com.br/resources/brokertools.pdf\" data-mce-selected=\"inline-boundary\"><strong><span style=\"color: rgb(53, 152, 219);\" data-mce-style=\"color: rgb(53, 152, 219);\"><em>Saiba mais »</em></span></strong></a></p>",
+          "list": []
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/0f72b3b8-86e1-4772-b8a3-7ad57fbb99cd",
+      "socials": [
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/a94c655c-5fd5-4552-92cc-42f5350948ae",
+          "link": "https://www.linkedin.com/company/inoa/"
+        },
+        {
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/066a993a-f159-484b-9daa-8dae16049b97",
+          "link": "https://www.facebook.com/InoaSistemas"
+        }
+      ],
+      "fixFooterPosition": false
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

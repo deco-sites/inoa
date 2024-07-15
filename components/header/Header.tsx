@@ -25,7 +25,7 @@ const Header = ({ bgEffect = false, logo, logoDesktop, links = [] }: Props) => {
 
     const getLinkClass = (activePage: boolean | undefined) => {
         if (activePage) return 'text-[#53bbed]';
-        if (bgEffect) return 'text-white';
+        if (bgEffect) return 'text-white hover:text-[#53bbed}';
         return 'text-[#666666]';
     };
 

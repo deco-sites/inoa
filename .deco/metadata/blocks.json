@@ -62,5 +62,11 @@
     "path": "/produtos",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-BrokerTools-149566.json": {
+    "name": "BrokerTools",
+    "path": "/solucao-brokertools",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

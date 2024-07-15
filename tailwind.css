@@ -59,6 +59,40 @@
     padding-bottom: 10px;
   }
 
+  .tabsLi {
+    background: url(/image/bullet-sidebar.png) no-repeat left center;
+    list-style: none;
+  }
+
+  .tabsLi:first-child {
+    background-position: 0 16px;
+  }
+
+  .tabsLi:last-child {
+    background-position: 0 -170px;
+  }
+
+  .contentTabsLi:first-child::before {
+    background: url(/image/bg-first-panel.png) no-repeat top center #fff;
+    width: 100%;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    content: "";
+  }
+
+  @layer components {
+    .accordion-content {
+      @apply hidden;
+    }
+
+    input[type="radio"]:checked ~ .accordion-content {
+      @apply block;
+    }
+  }
+
   @keyframes slideDown {
     from {
       max-height: 0;

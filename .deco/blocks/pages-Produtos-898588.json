@@ -26,9 +26,149 @@
     },
     {
       "__resolveType": "site/sections/TabsCustom.tsx",
-      "title": "<p><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><strong><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Produtos</span> </span></strong></span><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">// Conheça nossos produtos inovadores para o mercado de capitais</span></span></span></p>",
-      "titleMobile": "<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><strong><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\">Produtos </span></strong></span></p><p><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">// Conheça nossos produtos inovadores para o mercado de capitais</span></span></span></p>",
-      "backgroundDotsEffect": true
+      "title": "<p><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><strong><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\"><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Produtos</span> </span></strong></span><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\"><span style=\"font-size: 14pt; font-weight: 300;\" data-mce-style=\"font-size: 14pt; font-weight: 300;\">// Grandes soluções e módulos sob medida para atender cada demanda da forma certa</span></span></span></p>",
+      "titleMobile": "<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><strong><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\">Produtos </span></strong></span></p><p><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\"><span style=\"font-size: 14pt; font-weight: 300;\" data-mce-style=\"font-size: 14pt; font-weight: 300;\">// Grandes soluções e módulos sob medida para atender cada demanda da forma certa</span></span></span></p>",
+      "backgroundDotsEffect": true,
+      "tabs": [
+        {
+          "tabsContent": [
+            {
+              "link": "solucao-alphatools",
+              "text": "AlphaTools"
+            },
+            {
+              "text": "Cotação",
+              "link": "https://www.inoa.com.br/resources/inoa-marketdata-datasheet-v2.pdf"
+            },
+            {
+              "text": "Engine FIX®/FAST®"
+            },
+            {
+              "text": "Ordens",
+              "link": "https://www.inoa.com.br/resources/inoa-execution-folder.pdf"
+            },
+            {
+              "text": "Pós Trade",
+              "link": "/solucao-brokertools."
+            },
+            {
+              "text": "Engine de Risco",
+              "link": "https://www.inoa.com.br/resources/inoa-execution-folder.pdf"
+            }
+          ],
+          "title": "BUYSIDE"
+        },
+        {
+          "tabsContent": [
+            {
+              "text": "BrokerTools",
+              "link": "/solucao-brokertools"
+            },
+            {
+              "link": "/solucao-brokertools",
+              "text": "Aluguel de Ações"
+            },
+            {
+              "text": "Cotação",
+              "link": "https://www.inoa.com.br/resources/inoa-marketdata-datasheet-v2.pdf"
+            },
+            {
+              "text": "Engine FIX®/FAST®"
+            },
+            {
+              "text": "Gerência de Risco",
+              "link": "/solucao-brokertools"
+            },
+            {
+              "text": "Ordens",
+              "link": "https://www.inoa.com.br/resources/inoa-execution-folder.pdf"
+            },
+            {
+              "text": "Pós Trade",
+              "link": "/solucao-brokertools"
+            },
+            {
+              "text": "Engine de Risco",
+              "link": "https://www.inoa.com.br/resources/inoa-execution-folder.pdf"
+            }
+          ],
+          "title": "SELLSIDE"
+        },
+        {
+          "tabsContent": [
+            {
+              "text": "Cotação",
+              "link": "https://www.inoa.com.br/resources/inoa-marketdata-datasheet-v2.pdf"
+            },
+            {
+              "text": "Engine FIX®/FAST®"
+            },
+            {
+              "text": "Ordens",
+              "link": "https://www.inoa.com.br/resources/inoa-execution-folder.pdf"
+            },
+            {
+              "text": "Pós Trade",
+              "link": "/solucao-brokertools"
+            },
+            {
+              "text": "Engine de Risco",
+              "link": "https://www.inoa.com.br/resources/inoa-execution-folder.pdf"
+            }
+          ],
+          "title": "VENDORS"
+        }
+      ],
+      "content": [
+        {
+          "topImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/ddc6c868-bdcf-487f-a722-57edb64d30e1",
+          "title": "Soluções",
+          "textContent": "<p><span style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\">A partir de componentes e módulos reutilizáveis, frutos de dezenas de projetos que já desenvolvemos, criamos soluções corporativas para atender por completo os departamentos e empresas que buscam otimizar e automatizar seus processos.</span></p>",
+          "list": [
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/49fb4a17-6ccc-4c2d-82fe-7e00cbeb9161",
+              "title": "AlphaTools",
+              "textContent": "<p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Público Alvo: Gestoras de Fundos e Carteiras Administradas, Tesourarias e outros participantes do 'Buy Side'.</span></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><br data-mce-bogus=\"1\"></span></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Por experiência com algumas das mais importantes gestoras do país, sabemos o quanto podemos ajudá-los a melhorar processos e reduzir custos usando tecnologia.</span></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><br data-mce-bogus=\"1\"></span></p><ul><li style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Os front-, middle- e, principalmente, back-offices têm muito a ganhar automatizando&nbsp;<strong>integrações</strong>&nbsp;com corretoras, administradoras, fontes de cotação, custodiantes etc.</span></li><li style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><br data-mce-bogus=\"1\"></span></li><li style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Grande parte do risco operacional assumido tanto em pequenos family offices quanto nas maiores gestoras pode ser mitigado com controles inteligentes e eficientes de&nbsp;<strong>risco</strong>,&nbsp;<strong>compliance</strong>,&nbsp;<strong>alocação</strong>&nbsp;e com&nbsp;<strong>relatórios de apoio à gestão</strong>.</span></li><li style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><br data-mce-bogus=\"1\"></span></li><li style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Muito do trabalho manual do back-office pode ser evitado tornando mais automáticas a&nbsp;<strong>boletagem de operações</strong>, movimentações de&nbsp;<strong>passivo</strong>&nbsp;e as diversas&nbsp;<strong>conciliações</strong>, como os&nbsp;<strong>batimentos de carteiras e contas</strong>.</span></li></ul><p><br></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Por isso criamos o AlphaTools, um sistema realmente completo para lidar com as mais diversas classes de ativos, mercados e estratégias de gestão.</span></p>",
+              "linkText": "Saiba mais »",
+              "linkUrl": "/solucao-alphatools"
+            },
+            {
+              "title": "BrokerTools",
+              "textContent": "<p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Público Alvo: Corretoras BM&amp;F Bovespa: Participantes de Negociação Plenos e Não-Plenos (PNP e PN).</span></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Enquanto tivemos significativos avanços nos sistemas de trading das bolsas e das corretoras, muito pouco evoluiu nos sistemas de&nbsp;<strong>Back-Office</strong>&nbsp;e de áreas como a&nbsp;<strong>Mesa de Aluguel</strong>&nbsp;e de&nbsp;<strong>Gerência de Limites de Risco Pré-trade</strong>&nbsp;de clientes institucionais.</span></p><ul><li style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Se por um lado o mercado brasileiro está relativamente maduro em algoritmos de negociação e HFT, por outro a maioria das corretoras e gestoras ainda faz as&nbsp;<strong>confirmações diárias</strong>&nbsp;via e-mail manualmente ou usando uma colcha de retalhos feita de macros de Excel e programas pouco preparados para a infinidade de&nbsp;<strong>templates de arquivos e mensagens</strong>&nbsp;usados pelo mercado.</span></li><li style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\"><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Os poucos sistemas que dominam o mercado não foram pensados para&nbsp;<strong>inter-operar</strong>&nbsp;via&nbsp;<strong>protocolos abertos</strong>&nbsp;como o FIX e usam mecanismos de&nbsp;<strong>integração</strong>&nbsp;atrasados, limitando-se a trocar e-mails e a permitir consultas em seus bancos de dados, consumindo esforço humano até para as tarefas mais corriqueiras.</span></li></ul><p><br></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102);\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102);\">Frente a essa realidade, desenvolvemos o BrokerTools, uma solução completa para as corretoras, focando na&nbsp;<strong>modularidade</strong>,&nbsp;<strong>extensibilidade</strong>&nbsp;e&nbsp;<strong>padronização de nomenclaturas e processos</strong>&nbsp;baseando-nos na&nbsp;<strong><a href=\"http://www.fixtradingcommunity.org/pg/structure/tech-specs/fix-guidelines/semantic-guidelines\" data-mce-href=\"http://www.fixtradingcommunity.org/pg/structure/tech-specs/fix-guidelines/semantic-guidelines\" style=\"color: rgb(102, 102, 102);\" data-mce-style=\"color: rgb(102, 102, 102);\">semântica FIX</a></strong>.</span></p>",
+              "linkText": "Saiba mais »",
+              "linkUrl": "/solucao-brokertools",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/d437bdb8-fcb9-4391-9fe2-900b9aa13be5"
+            }
+          ]
+        },
+        {
+          "list": [
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/a123392b-da56-4e71-b3ab-e47ef5c2b8cf",
+              "title": "Aluguel de Ações",
+              "textContent": "<p><span style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\">Uma característica marcante do mercado de aluguel de ações é o baixo volume financeiro agregado em comparação ao trabalho operacional gerado, já que o volume de contratos é muito grande e unitariamente cada contrato gera pouco faturamento. Tal característica delineia um cenário ideal para investimentos em automação, que viabilizam uma drástica redução do custo operacional e um aumento de liquidez e transparência nesse mercado.</span></p>",
+              "linkText": "Saiba mais »",
+              "linkUrl": "/solucao-brokertools"
+            },
+            {
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/99d61d8a-26a4-4153-80cc-3b3b0610b015",
+              "title": "Cotação",
+              "textContent": "<p><span style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\">Por ser a área na qual a Inoa possui mais tradição, oferecemos ao mercado dezenas de opções para atender a todo tipo arquiteturas e tecnologia.</span></p><p><br data-mce-bogus=\"1\"></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\">Nossos módulos de distribuição e de recebimento de cotação foram projetados para suportar dados heterogênios de diversos mercados e feeds, disponibilizando-os aos sistemas clientes de forma otimizada para cada tipo de necessidade. Com otimizações nas tecnologias empregadas, nos protocolos utilizados, no uso de processamento paralelo (multithreaded), conseguimos entregar latências baixíssimas para usuários sensíveis a atrasos e escala e economia de recursos para usuários com essas demandas.</span></p><p><br data-mce-bogus=\"1\"></p><p><span style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\">Não importa se sua necessidade é receber o sinal da BMF Bovespa ou reunir feeds de diversos países, distribuir cotação para telas de negociação ou tratá-la algoritmicamente em poucos microssegundos no colocation, alimentar sistemas próprios ou planilhas de Excel, usar dados nativos ou derivações customizadas. Podemos atender suas necessidades com qualidade e custo incomparáveis.</span></p>",
+              "linkText": "Saiba mais »",
+              "linkUrl": "https://www.inoa.com.br/resources/inoa-marketdata-datasheet-v2.pdf"
+            },
+            {
+              "title": "Engine FIX®/FAST®",
+              "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/76a6e9ab-7926-4d9e-9b44-068ebfa76478",
+              "linkUrl": "/produtos",
+              "linkText": "Saiba mais »"
+            }
+          ],
+          "topImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/c2eb3fbe-aed8-4ac1-95ac-9249f1e4164c",
+          "title": "Módulos",
+          "textContent": "<p><span style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\">Somos desenvolvedores. Programadores e analistas. Sabemos que a resposta certa para certos problemas pode ser simples, específica e, muitas vezes, barata. Confira abaixo a vasta gama de módulos - componentes, APIs e serviços - que oferecemos para cada área do mercado.</span></p>"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
@@ -43,7 +183,7 @@
           "link": "https://www.facebook.com/InoaSistemas"
         }
       ],
-      "fixFooterPosition": true
+      "fixFooterPosition": false
     }
   ],
   "seo": {
