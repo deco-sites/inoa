@@ -5,6 +5,7 @@
 import * as $_app from "./routes/_app.tsx";
 import * as $Header from "./islands/Header.tsx";
 import * as $SliderJS from "./islands/SliderJS.tsx";
+import * as $TabsCustom from "./islands/TabsCustom.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -14,6 +15,7 @@ const manifest = {
   islands: {
     "./islands/Header.tsx": $Header,
     "./islands/SliderJS.tsx": $SliderJS,
+    "./islands/TabsCustom.tsx": $TabsCustom,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

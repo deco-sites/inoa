@@ -87,10 +87,6 @@
     .accordion-content {
       @apply hidden;
     }
-
-    input[type="radio"]:checked ~ .accordion-content {
-      @apply block;
-    }
   }
 
   @keyframes slideDown {

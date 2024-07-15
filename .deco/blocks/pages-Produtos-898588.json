@@ -121,7 +121,6 @@
       ],
       "content": [
         {
-          "topImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/ddc6c868-bdcf-487f-a722-57edb64d30e1",
           "title": "Soluções",
           "textContent": "<p><span style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\" data-mce-style=\"font-size: 10pt; color: rgb(102, 102, 102); font-weight: 300;\">A partir de componentes e módulos reutilizáveis, frutos de dezenas de projetos que já desenvolvemos, criamos soluções corporativas para atender por completo os departamentos e empresas que buscam otimizar e automatizar seus processos.</span></p>",
           "list": [
@@ -139,7 +138,8 @@
               "linkUrl": "/solucao-brokertools",
               "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/d437bdb8-fcb9-4391-9fe2-900b9aa13be5"
             }
-          ]
+          ],
+          "topImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/d4c3310a-62b0-49e9-b734-28933ffd2cae"
         },
         {
           "list": [
