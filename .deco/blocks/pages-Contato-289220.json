@@ -33,10 +33,12 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/0f72b3b8-86e1-4772-b8a3-7ad57fbb99cd",
       "socials": [
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/0530f48f-2c68-4e4e-a713-5b1e11214969"
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/66e4f203-5251-435e-bfcc-8a403a495221",
+          "link": "https://www.linkedin.com/company/inoa/"
         },
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/8670ede0-b094-4ded-a8b7-a95031ea9480"
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/81e28109-da28-4b53-9c68-d759cabbb24e",
+          "link": "https://www.facebook.com/InoaSistemas"
         }
       ],
       "fixFooterPosition": true

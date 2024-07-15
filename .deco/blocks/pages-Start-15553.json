@@ -13,7 +13,7 @@
         },
         {
           "text": "PRODUTOS",
-          "url": "/"
+          "url": "/produtos"
         },
         {
           "url": "/contato",
@@ -133,10 +133,12 @@
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/0f72b3b8-86e1-4772-b8a3-7ad57fbb99cd",
       "socials": [
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/0530f48f-2c68-4e4e-a713-5b1e11214969"
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/bd4fc745-46fc-4760-8dba-bfb054d54aeb",
+          "link": "https://www.linkedin.com/company/inoa/"
         },
         {
-          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/8670ede0-b094-4ded-a8b7-a95031ea9480"
+          "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/e9368fee-08fe-4425-8dc7-8e593a066fdd",
+          "link": "https://www.facebook.com/InoaSistemas"
         }
       ]
     }

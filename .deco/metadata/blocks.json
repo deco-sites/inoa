@@ -56,5 +56,11 @@
     "path": "/a-inoa",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Produtos-898588.json": {
+    "name": "Produtos",
+    "path": "/produtos",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
