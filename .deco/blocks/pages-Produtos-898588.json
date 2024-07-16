@@ -34,7 +34,8 @@
           "tabsContent": [
             {
               "link": "solucao-alphatools",
-              "text": "AlphaTools"
+              "text": "AlphaTools",
+              "highlightTab": true
             },
             {
               "text": "Cotação",
@@ -62,7 +63,8 @@
           "tabsContent": [
             {
               "text": "BrokerTools",
-              "link": "/solucao-brokertools"
+              "link": "/solucao-brokertools",
+              "highlightTab": true
             },
             {
               "link": "/solucao-brokertools",

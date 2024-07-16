@@ -16,6 +16,11 @@ interface Tabs {
     tabsContent?: {
         link?: string;
         text?: string;
+        /**
+          * @default false
+          * @description turn true to highlight the chosen tab
+        */
+        highlightTab?: boolean;
     }[]
 }
 interface Content {
@@ -59,18 +64,18 @@ function TabsCustom({ backgroundDotsEffect, title, titleMobile, tabs, content }:
                     }
 
                     <div className="flex flex-col md:flex-row">
-                        <div className="w-64 md:flex md:flex-col md:gap-6">
+                        <div className="w-64 mb-[20px] md:mb-0 md:flex md:flex-col md:gap-6">
                             {tabs && tabs.map((tab, index) => (
                                 <div key={index} className="w-64">
                                     <input type="radio" name="my-accordion-1" id={`tab-${index}`} className="hidden" />
                                     <label htmlFor={`tab-${index}`} className="flex items-center text-[28px] cursor-pointer text-[#005984] font-light" onClick={() => handleTabClick(index)}>
                                         {tab.title}
-                                        <Icon id={openTab === index ? "ArrowDown" : "ArrowRight"} size={16} strokeWidth={2} className={`ml-[10px]`} />
+                                        <Icon id={"ArrowRight"} size={24} strokeWidth={3} className={`ml-[10px] ${openTab === index ? 'rotate-90' : ''}`} />
                                     </label>
                                     <div className={`${openTab === index ? 'max-h-screen' : 'max-h-0'} transition-all duration-1000 ease-in-out overflow-hidden bg-white`}>
                                         <ul className="list-none">
                                             {tab.tabsContent && tab.tabsContent.map((contentItem, idx) => (
-                                                <li key={idx} className="tabsLi text-lg leading-[45px] pl-[40px]">
+                                                <li key={idx} className={`tabsLi text-lg text-[#005984] leading-[45px] pl-[40px] ${contentItem.highlightTab ? "font-bold" : ''}`}>
                                                     <a href={contentItem.link} className={`${contentItem.link ? "hover:underline" : ''}`}>{contentItem.text}</a>
                                                 </li>
                                             ))}
@@ -87,8 +92,8 @@ function TabsCustom({ backgroundDotsEffect, title, titleMobile, tabs, content }:
                                         <Image
                                             src={contentItem.topImage}
                                             alt={"Imagem ilustrativa para o conteúdo do texto"}
-                                            height={1000}
-                                            width={100}
+                                            height={100}
+                                            width={1000}
                                             className="w-full"
                                         />
                                     )}

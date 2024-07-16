@@ -95,16 +95,18 @@
         {
           "title": "BrokerTools",
           "text": "Voltada para o sell side, a solução BrokerTools compreende um conjunto de módulos para automação dos processos de \t\t\t\t\t\t\t\tback e middle offices de corretoras de valores. Dentre os principais fluxos atendidos por essa solução, destacam-se: \t\t\t\t\t\t\t\trecebimento de execuções, especificação de execuções sem comitente, repasse, distribuição de execuções entre clientes finais, \t\t\t\t\t\t\t\tcomunicação com clientes para envio de confirmações e recebimento de alocações. \t\t\t\t\t\t\t\tComplementarmente, o módulo LendingHub atende todos os processos operacionais de aluguel de ações, oferecendo ainda ferramentas \t\t\t\t\t\t\t\tpara aumento da liquidez e transparência desse mercado, facilitando a consulta e casamento de ofertas de negociação. \t\t\t\t\t\t\t",
-          "invertText": true
+          "invertText": true,
+          "titleLink": "/solucao-brokertools"
         },
         {
           "text": "MarketTools representa a suíte de módulos ligados à infra-estrutura de trading. Fazem parte dessa suíte o Market Data Feeder,  \t\t\t\t\t\t\t\tum feeder de cotações de baixíssima latência; o RiskManager, calibrador de riscos pré-trade; os módulos ExecHub e ExecAdapter,  \t\t\t\t\t\t\t\tpara envio e roteamento de ordens, dentre outros. \t\t\t\t\t\t\t",
-          "title": "MarketTools"
+          "title": "MarketTools",
+          "titleLink": "/produtos"
         }
       ],
       "titleMobile": "<p><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><strong><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\">Produtos </span></strong></span></p><p><span style=\"color: rgb(0, 89, 132);\" data-mce-style=\"color: rgb(0, 89, 132);\"><span style=\"font-size: 45pt;\" data-mce-style=\"font-size: 45pt;\"><span style=\"font-size: 14pt; font-weight: 300;\" data-mce-style=\"font-size: 14pt; font-weight: 300;\">// Conheça nossos produtos inovadores para o mercado de capitais</span></span></span></p>",
       "checkMore": "Veja todos os nossos produtos »",
-      "checkMoreUrl": "/",
+      "checkMoreUrl": "/produtos",
       "contentDesktop": [
         {
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/e81fd0b6-0e6e-4b7f-bec7-61bf77de2f69",
@@ -119,12 +121,14 @@
           "text": " Voltada para o sell side, a solução BrokerTools compreende um conjunto de módulos para automação dos processos de back e middle offices de corretoras de valores. Dentre os principais fluxos atendidos por essa solução, destacam-se: \t\t\t\t\t\t\t\trecebimento de execuções, especificação de execuções sem comitente, repasse, distribuição de execuções entre clientes finais, \t\t\t\t\t\t\t\tcomunicação com clientes para envio de confirmações e recebimento de alocações. \t\t\t\t\t\t\t\tComplementarmente, o módulo LendingHub atende todos os processos operacionais de aluguel de ações, oferecendo ainda ferramentas \t\t\t\t\t\t\t\tpara aumento da liquidez e transparência desse mercado, facilitando a consulta e casamento de ofertas de negociação. ",
           "invertImage": true,
           "imageSeparator": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/4d4f345f-611d-4773-8aca-83ad8648e90d",
-          "imageSeparatorVisible": true
+          "imageSeparatorVisible": true,
+          "titleLink": "/solucao-brokertools"
         },
         {
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10964/de2ceb84-146b-4fe6-89fb-2266243a1ccc",
           "title": "MarketTools",
-          "text": " MarketTools representa a suíte de módulos ligados à infra-estrutura de trading. Fazem parte dessa suíte o Market Data Feeder,  \t\t\t\t\t\t\t\tum feeder de cotações de baixíssima latência; o RiskManager, calibrador de riscos pré-trade; os módulos ExecHub e ExecAdapter, para envio e roteamento de ordens, dentre outros. "
+          "text": " MarketTools representa a suíte de módulos ligados à infra-estrutura de trading. Fazem parte dessa suíte o Market Data Feeder,  \t\t\t\t\t\t\t\tum feeder de cotações de baixíssima latência; o RiskManager, calibrador de riscos pré-trade; os módulos ExecHub e ExecAdapter, para envio e roteamento de ordens, dentre outros. ",
+          "titleLink": "/produtos"
         }
       ]
     },

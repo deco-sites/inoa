@@ -17,11 +17,13 @@ interface ContentProps {
     imageSeparator?: ImageWidget;
     imageSeparatorVisible?: boolean;
     title?: string;
+    titleLink?: string;
     text?: string;
 }
 
 interface ContentPropsMobile {
     title?: string;
+    titleLink?: string;
     text?: string;
     invertText?: boolean;
 }
@@ -45,7 +47,7 @@ function TextImageCustom({ backgroundDotsEffect, title, titleMobile, contentMobi
                 <div class="md:hidden">
                     {contentMobile?.map((content) => (
                         <div class={`flex flex-col mb-[10px] ${content.invertText ? 'text-right' : ''}`}>
-                            <span class="text-[33px] font-bold text-[#005984]">{content.title}</span>
+                            <a class={`${content.titleLink ? 'hover:underline cursor-pointer decoration-[#005984] decoration-2' : ''}`} href={content.titleLink}><span class="text-[33px] font-bold text-[#005984]">{content.title}</span></a>
                             <span class="text-sm text-[#666]">{content.text}</span>
                         </div>
                     ))}
@@ -62,7 +64,7 @@ function TextImageCustom({ backgroundDotsEffect, title, titleMobile, contentMobi
                                     height={192}
                                     class={`${content.invertImage ? 'ml-[30px]' : 'mr-[30px]'}`} />}
                             <div class={`flex flex-col ${content.invertImage ? 'text-right' : ''}`}>
-                                <span class="text-[33px] font-bold text-[#005984]">{content.title}</span>
+                                <a href={content.titleLink} class={`${content.titleLink ? 'hover:underline cursor-pointer decoration-[#005984] decoration-2' : ''}`}> <span class="text-[33px] font-bold text-[#005984]">{content.title}</span></a>
                                 <span class="text-sm text-[#666]">{content.text}</span>
                             </div>
                         </div>
